@@ -17,7 +17,7 @@ const UseStateArray = () => {
             <h2 key={id} className="item">
               {name}
             </h2>
-            <button className="btn btn-danger" onClick={() => removeItem(id)}>
+            <button className="btn" onClick={() => removeItem(id)}>
               Remove
             </button>
           </React.Fragment>
