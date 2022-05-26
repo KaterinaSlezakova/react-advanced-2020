@@ -23,7 +23,7 @@ const ControlledInputs = () => {
       //this two line of codes above automaticlly clear form after submiting back to empty values.
       //Without this code we would have to clear values in form manually.
     } else {
-      console.log("you forgot something");
+      console.log("you forgot to fill something");
     }
   };
 
